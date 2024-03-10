@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { HiMiniBars2 } from "react-icons/hi2";
+
 function Navbar() {
   const [toggle, setToggle]= useState(true);
   console.log(toggle);

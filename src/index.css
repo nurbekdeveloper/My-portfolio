@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+overflow-x:hidden;
+}
 .links {
   @apply hover:text-[#313bac];
   position: relative; /* Ensure the parent element is positioned */
