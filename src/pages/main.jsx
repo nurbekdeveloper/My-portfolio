@@ -3,6 +3,7 @@ import Navbar from '../component/navbar/Navbar'
 import Header from '../component/header/Header'
 import Skills from '../component/Skills/Skills'
 import Works from '../component/works/Works'
+import Contact from '../component/contact/Contact'
 
 
 
@@ -13,6 +14,7 @@ function Main() {
     <Header />
     <Skills/>
     <Works/>
+    <Contact/>
 
     </>
   )
