@@ -6,7 +6,7 @@ function Navbar() {
   console.log(toggle);
   return (
 
-    <div className=" fixed backdrop-blur     navbar  w-full  bg-[#F2F5FA] p-5">
+    <div className=" fixed backdrop-blur  z-[20]    navbar  w-full  bg-[#F2F5FA] p-5">
       <div className="  container  mx-auto   w-full flex justify-between item-center ">
         <div className="text-[25px] ">Nurbek</div>
         <ul className= { ` flex  md:flex-row md:static   md:w-auto md:bg-[transparent] flex-col  gap-6 text-[#6b7688]  md:h-auto font-[600] uppercase absolute w-[50%] ${toggle ? 'right-[-100%]' : 'right-0'} h-[100vh] right-0 top-[80px] transition-[0.5s]`}>

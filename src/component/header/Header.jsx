@@ -1,18 +1,17 @@
-import React from 'react'
+import React from 'react';
 import img from '../img/gif for developers.gif';
 import react from '../img/react.png';
-import redux from '../img/redux.png'
-import sass from '../img/sass.png'
+import redux from '../img/redux.png';
+import sass from '../img/sass.png';
 import Social from './Social';
 import { Fade  } from 'react-reveal';
-import {Flip }from "react-reveal";
 import { Zoom } from "react-reveal";
 
 const Header = () => {
   return (
-    <div className=' lg:pt-0 pt-[200px]  bg-[#edf2f8] w-full  flex  h-[100vh]  lg:flex-row flex-col items-center justify-center gap-10 '>
+    <div className=' lg:pt-0 pt-[200px]  bg-[#edf2f8] w-full  flex  md:h-[100vh] h-auto   lg:flex-row flex-col items-center justify-center gap-10 '>
   <Fade left>
-    <div className='flex h-[100vh]  flex-col  gap-5 items-center justify-center md:items-end max-w-[350px]'>
+    <div className='flex  md:h-[100vh] h-auto  flex-col  gap-5 items-center justify-center md:items-end max-w-[350px]'>
         {/* cv */}
 
       <div className='flex justify-center p-1   w-[300px]  gap-6 shadow-lg  bg-white rounded-[15px]'>
@@ -27,7 +26,7 @@ const Header = () => {
       <div className='w-full text-slate-400 text-[20px] bg-white max-w-[250px] p-2 rounded-[10px] shadow-lg' >Fronted / React developer </div>
 
 
-      <button className='bg-[#313bac] wi-full text-[white]  font-bold text-[18px] px-5 py-3 max-w-[350px] rounded-[15px]'> Download  CV </button>
+      <a href='developer.pdf' className='bg-[#313bac] wi-full text-[white]  font-bold text-[18px] px-5 py-3 max-w-[350px] rounded-[15px]'> Download  CV </a>
     </div>
   </Fade>
     <Zoom top  duration={1000} delay={200}>
