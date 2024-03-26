@@ -2,14 +2,16 @@ import React from "react";
 import {Fade } from 'react-reveal';
 import { skillsData } from "./skills.db";
 import Social from "../header/Social";
+import Translate from "../../utils/Translate";
+
 
 
 const Skills = () => {
   return (
-    <div className="relative">
+    <div id="Skills" className="relative pt-8">
       <div className="flex  font-bold justify-center items-center  my-16 gap-1 text-[50px]">
         <span>My</span>
-        <span className="text-[#313bac]">Skills</span>
+        <span className="text-[#313bac]"><Translate dictionary={{ru:'Навыки',en:'Skills'}}/></span>
       </div>
       <Fade>
       <div className="flex flex-wrap gap-4 md:gap-10 justify-center items-center mt-4 w-[70%] m-auto  ">

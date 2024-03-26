@@ -4,10 +4,14 @@
 
 body{
 overflow-x:hidden;
+
 }
 .links {
   @apply hover:text-[#313bac];
   position: relative; /* Ensure the parent element is positioned */
+}
+html {
+  scroll-behavior: smooth;
 }
 
 .links:hover::after {
