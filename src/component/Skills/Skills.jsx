@@ -1,5 +1,5 @@
 import React from "react";
-import {Fade } from 'react-reveal';
+
 import { skillsData } from "./skills.db";
 import Social from "../header/Social";
 import Translate from "../../utils/Translate";
@@ -13,7 +13,7 @@ const Skills = () => {
         <span>My</span>
         <span className="text-[#313bac]"><Translate dictionary={{ru:'Навыки',en:'Skills'}}/></span>
       </div>
-      <Fade>
+
       <div className="flex flex-wrap gap-4 md:gap-10 justify-center items-center mt-4 w-[70%] m-auto  ">
         {skillsData.map((item)=>(
           <div key={item.id}>
@@ -26,7 +26,7 @@ const Skills = () => {
         ))}
 
       </div>
-      </Fade>
+
 
       <div className="relative mt-5 flex justify-between py-8 ">
       <div><Social/></div>

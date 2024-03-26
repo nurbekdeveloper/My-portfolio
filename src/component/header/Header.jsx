@@ -4,13 +4,12 @@ import react from '../img/react.png';
 import redux from '../img/redux.png';
 import sass from '../img/sass.png';
 import Social from './Social';
-import { Fade  } from 'react-reveal';
-import { Zoom } from "react-reveal";
+
 import Translate from '../../utils/Translate';
 const Header = () => {
   return (
     <div id='Header' className=' lg:pt-0 pt-[200px]  bg-[#edf2f8] w-full  flex  md:h-[100vh] h-auto   lg:flex-row flex-col items-center justify-center gap-10 '>
-  <Fade left>
+
     <div className='flex  md:h-[100vh] h-auto  flex-col  gap-5 items-center justify-center md:items-end max-w-[350px]'>
         {/* cv */}
 
@@ -28,13 +27,13 @@ const Header = () => {
 
       <a href='developer.pdf' className='bg-[#313bac] wi-full text-[white]  font-bold text-[18px] px-5 py-3 max-w-[350px] rounded-[15px]'> <Translate dictionary={{ru:'Скачать CV',en:'Download  CV'}}/> </a>
     </div>
-  </Fade>
-    <Zoom top  duration={1000} delay={200}>
+
+
     <div>
     <img src={img} alt="img" />
     </div>
-    </Zoom>
-    <Fade right>
+
+
     <div className='flex  lg:flex-col gap-[40px]  '>
       <div className='w-[60px] h-[60px]  lg:w-[100px] lg:h-[100px] text-center rounded-full  bg-[white]  shadow-2xl flex justify-center items-center'>
         <img src={redux} className='w-[80%]' alt="redux img " />
@@ -46,7 +45,7 @@ const Header = () => {
         <img src={sass} className='w-[60%]' alt="" />
       </div>
     </div>
-    </Fade>
+
     <Social/>
     </div>
   )
