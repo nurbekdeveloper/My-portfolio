@@ -2,7 +2,7 @@ import React from 'react'
 import Social from '../header/Social'
 
 import { worksDB } from './works.db'
-import { worksDBRu } from './works.db'
+
 import Translate from '../../utils/Translate'
 const Works = () => {
   return (
